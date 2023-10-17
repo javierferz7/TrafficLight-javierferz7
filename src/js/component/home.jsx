@@ -21,12 +21,7 @@ const Home = () => {
             onClick={() => setCurrentColor("red")}
           ></div>
 
-          <div
-            className={
-              currentColor === "yellow" ? "yellow light glow" : "yellow light"
-            }
-            onClick={() => setCurrentColor("yellow")}
-          ></div>
+          
 		   <div
             className={
               currentColor === "yellow" ? "yellow light glow" : "yellow light"
